@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #f0eeee;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEcRXjHmTP_Q5BXYpt2NbmBfl4eyLlJCpItw&s.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 173vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #153d4b;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto; 
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1; 
+}
+
+h2 {
+    border-bottom: 2px solid #060713;
+    padding-bottom: 0.5rem;
+}
+
+.course-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: rgb(22, 74, 92);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 2rem);
+    box-sizing: border-box;
+}
+
+.course-card h3 {
+    margin-top: 0;
+}
+.course-card h3 {
+    background-color: rgb(13, 67, 83);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 2rem);
+    box-sizing: border-box;
+}
+footer {
+    background-color: #0a3141;
+    color: white;
+    text-align: below;
+    padding: 2rem 0;
+    margin-top: auto; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 1; 
+}
+
+a {
+    color: #acd1dd;
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+    color: rgb(4, 45, 78); 
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
